@@ -10,7 +10,7 @@ public class CoinToss {
         
         // Get the absolute value of the next random Int, 
         // determine if it's odd or even: returns 0 or 1
-        int toss = Math.abs(rand.nextInt()) % 2;
+        int toss = rand.nextInt(2 - 0);
         
         if (toss == 0) {
             return "HEADS";
